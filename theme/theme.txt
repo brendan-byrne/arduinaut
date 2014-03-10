@@ -1,0 +1,115 @@
+# Background Color  - #101421
+# Normal Type Color - #bfbfbf
+# Highlight Color   - #00384c
+# Mysterious D Purp - #242841
+# Even Deeper Purp	- #151826
+# Data Type Color 	- #a4ed2d
+# Functions + Tags  - #ffffff
+# String Color 		- #ffd852
+# Comment Color 	- #815db3
+# Number Color      - #ffc400
+
+# GUI - STATUS
+status.notice.fgcolor = #FFFFFF
+status.notice.bgcolor = #0C0E16
+status.error.fgcolor = #000000
+status.error.bgcolor = #A4ED2D
+status.edit.fgcolor = #BFBFBF
+status.edit.bgcolor = #101421
+status.font = consolas,plain,12
+
+# GUI - TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #0C0E16
+header.text.selected.color = #FFFFFF
+header.text.unselected.color = #BFBFBF
+header.text.font = consolas,plain,12
+
+# GUI - CONSOLE
+console.font = consolas,plain,12
+console.font.macosx = Monaco,plain,10
+console.color = #000000
+console.output.color = #eeeeee			
+console.error.color = #A4ED2D
+
+# GUI - BUTTONS
+buttons.bgcolor = #0C0E16
+buttons.status.font = consolas,plain,12
+buttons.status.color = #ffffff
+
+# GUI - LINESTATUS   
+linestatus.color = #ffffff
+linestatus.bgcolor = #0C0E16
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #D6D6D6
+editor.bgcolor = #101421
+
+# highlight for the current line
+editor.linehighlight.color=#e2e2e2
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #BFBFBF
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #c8d2dc
+
+# selection color
+editor.selection.color = #00384C
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #815DB3,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #00A2FA
+
+
+# TEXT - KEYWORDS
+
+# e.g abstract, final, private
+editor.keyword1.style = #A4ED2D,plain
+
+# e.g. beginShape, point, line
+editor.keyword2.style = #FFC400,plain
+
+# e.g. byte, char, short, color
+editor.keyword3.style = #FFFFFF,bold
+
+
+# TEXT - LITERALS
+
+# constants: e.g. null, true, this, RGB, TWO_PI
+editor.literal1.style = #00A2FA,plain
+
+# p5 built in variables: e.g. mouseX, width, pixels
+editor.literal2.style = #00A2FA,plain
+
+# http://arduino.cc/
+editor.url.style = #0000ff,underlined
+
+# e.g. + - = /
+editor.operator.style = #BFBFBF,plain
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #815DB3,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #815DB3,plain
+editor.comment2.style = #815DB3,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = consolas,plain,12
+linestatus.height  = 20
