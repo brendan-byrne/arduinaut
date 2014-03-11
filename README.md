@@ -1,4 +1,4 @@
-## Arduinaut -Arduino IDE Theme ##
+## Arduinaut - Arduino IDE Theme ##
 **About**<br />
 Arduinaut is a custom theme for the Arduino programming environment. It is based upon Argonaut by Paweł Waleczek which can be found here [https://github.com/pwaleczek/Argonaut-theme](https://github.com/pwaleczek/Argonaut-theme)
 
